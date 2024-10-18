@@ -22,7 +22,7 @@ echo 'source $ZSH_CUSTOM/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh' >
 
 # Source the ~/.zshrc file to apply the changes
 echo "Sourcing .zshrc to apply changes..."
-source ~/.zshrc
+. ~/.zshrc
 
 echo "Zsh, Oh My Zsh, and plugins installed successfully!"
 
