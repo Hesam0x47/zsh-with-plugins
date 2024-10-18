@@ -2,7 +2,7 @@
 set -x
 
 # Set the ZSH_CUSTOM variable
-export ZSH_CUSTOM="${ZSH_CUSTOM:-~/.oh-my-zsh/custom}"
+export ZSH_CUSTOM="${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}"
 
 # Install zsh-autosuggestions
 echo "Installing zsh-autosuggestions..."
