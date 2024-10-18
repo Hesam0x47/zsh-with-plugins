@@ -27,7 +27,3 @@ exec zsh
 # Install Starship prompt
 echo "Installing Starship prompt..."
 curl -sS https://starship.rs/install.sh | sh -s -- --yes
-
-# Set Zsh as the default shell for the user
-echo "Setting Zsh as the default shell..."
-chsh -s "$(which zsh)"
