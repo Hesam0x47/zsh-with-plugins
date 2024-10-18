@@ -1,4 +1,5 @@
 #!/usr/bin/zsh
+set -x
 
 # Set the ZSH_CUSTOM variable
 export ZSH_CUSTOM="${ZSH_CUSTOM:-~/.oh-my-zsh/custom}"
