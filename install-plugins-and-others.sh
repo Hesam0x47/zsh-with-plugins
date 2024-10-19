@@ -32,3 +32,8 @@ exec zsh
 # Install Starship prompt
 echo "Installing Starship prompt..."
 curl -sS https://starship.rs/install.sh | sh -s -- --yes
+echo '''
+
+#Star Ship
+eval "$(starship init zsh)"
+''' >> ~/.zshrc
