@@ -24,11 +24,6 @@ echo 'source $ZSH_CUSTOM/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh' >
 echo "Sourcing .zshrc to apply changes..."
 source ~/.zshrc
 
-echo "Zsh, Oh My Zsh, and plugins installed successfully!"
-
-# Restart Zsh to apply changes
-exec zsh
-
 # Install Starship prompt
 echo "Installing Starship prompt..."
 curl -sS https://starship.rs/install.sh | sh -s -- --yes
@@ -37,3 +32,8 @@ echo '''
 #Star Ship
 eval "$(starship init zsh)"
 ''' >> ~/.zshrc
+
+echo "Zsh, Oh My Zsh, and plugins installed successfully!"
+
+# Restart Zsh to apply changes
+exec zsh
