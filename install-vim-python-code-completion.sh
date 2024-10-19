@@ -48,7 +48,7 @@ vim +PlugInstall +qall
 
 # Step 6: Install Python dependencies for jedi-vim
 echo "Installing Python dependencies for jedi-vim..."
-pip3 install jedi
+pip3 install jedi || sudo apt install python3-jedi
 
 echo "Setup complete! Your previous .vimrc has been backed up to ~/.vimrc.bak."
 
