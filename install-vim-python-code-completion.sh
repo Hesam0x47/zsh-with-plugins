@@ -2,7 +2,7 @@
 
 # Warning message
 echo "WARNING: This script will replace your existing ~/.vimrc file."
-read -p "Do you want to proceed? (y/n): " -n 1 -r
+read -p "Do you want to proceed? (y/N): " -n 1 -r
 echo    # (Optional) move to a new line
 if [[ ! $REPLY =~ ^[Yy]$ ]]; then
 	    echo "Operation aborted by user."
